@@ -1,0 +1,6 @@
+<h1># panique-a-la-disco</h1>
+{% for x in users | reverse %}
+ <li>{{ x["artist"]  }} - {{ x["title"]  }}</li>
+
+{% endfor %} 
+<button> panic </button>
